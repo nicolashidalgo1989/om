@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="utf-8">
+      <meta name="robots" content="INDEX,FOLLOW">
+      <meta name="description" content="OM music es una tienda de musica online. Descubre escucha y compra a más de un millón de canciones y discos.">
+      <meta name="keywords" content="online music store, musica, alternativa, descarga, mp3, dark, rock, goth">
+      <meta name="author" content="Nicolas Hidalgo">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>OM music</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-default header">
+            <div class="container">
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> 
+                  </button>
+                  <h1><a class="navbar-brand" href="index.html#home">OM music</a></h1>
+               </div>
+               <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                     <li><a href="index.html#home">Inicio</a></li>
+                     <li><a href="index.html#app">App</a></li>
+                     <li><button class="btn navbar-btn" href="index.html#ingresar">Ingresar</button></li>
+                     <li><a href="index.html#descubre">Descubre</a></li>
+                     <li><a href="acerca.html">Acerca</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <section id="home">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+                  <h2 class="">Descubre, escucha y compra a más de un millón de canciones y discos</h2>
+               </div>
+               <div class="col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3 play">
+                  <a href="javascript:void(0);">
+                  <span class="fa fa-volume-up"></span>
+                  </a>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+                  <form>
+                     <div class="form-group">
+                        <input id="buscar" name="buscar" type="text" class="form-control" required >
+                        <label for="buscar"> 
+                        <span class="fa fa-search"></span> Buscar
+                        </label>
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6 col-lg-6">
+                  <p class="text-right"><span class="fa fa-volume-up"></span> Busqueda por voz </p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6 col-lg-6 pull-right">
+                  <p class="text-right">Artista / Género</p>
+                  <button class="btn pull-right">Comprar</button>
+               </div>
+            </div>
+         </div>
+         <img src="img/slider/slider-om-07.jpg" alt="OM music" class="bg">
+      </section>
+      <section id="app">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-5 col-lg-offset-1">
+                  <img src="img/png/mobile-mockup.png" alt="Mobile App" class="img-responsive">
+               </div>
+               <div class="col-lg-5">
+                  <h3>Descarga OM music App</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <button type="button" class="col-lg-4 btn btn-lg" data-toggle="modal" data-target="#download">Android</button>
+                  <button type="button" class="col-lg-4 col-lg-offset-1 btn btn-lg" data-toggle="modal" data-target="#download">iOs</button> 
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="ingresa" class="clip-left">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <h2>Ingresa a OM music</h2>
+                  <form>
+                     <div class="form-group">
+                        <input id="email" name="email" type="text" class="form-control" required>
+                        <label for="email"> 
+                        <span class="fa fa-envelope"></span> E-mail
+                        </label>
+                     </div>
+                     <div class="form-group">
+                        <input id="pass" name="pass" type="password" class="form-control" required>
+                        <label for="pass"> 
+                        <span class="fa fa-lock"></span> Password
+                        </label>
+                     </div>
+                  </form>
+                  <button type="button" class="col-lg-4 btn btn-lg">Ingresar</button> 
+                  <span id="helpBlock" class="help-block wht pull-right"> ...o registrate <a href="javascript:void(0);" data-toggle="modal" data-target="#registro" class="wht">aquí</a></span>
+               </div>
+            </div>
+         </div>
+         <img src="img/slider/slider-om-11.jpg" alt="OM music" class="bg clip">
+      </section>
+      <section id="descubre">
+         <div class="container">
+            <h2 class="sr-only">Descubre</h2>
+            <div class="row">
+               <div class="col-lg-6">
+                  <form>
+                     <div class="form-group">
+                        <input id="discover" name="discover" type="text" class="form-control" required>
+                        <label for="discover"> Descubre </label>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-lg-6">  
+                  <a data-toggle="collapse" data-target="#filters" aria-expanded="false" aria-controls="filters" class="help-block">Búsqueda avanzada <span class="fa fa-angle-down"></span></a>  
+               </div>
+            </div>
+            <div class="collapse controls" id="filters">
+               <div class="row">
+                  <form class="form-inline">
+                     <div class="col-lg-2">
+                        <div class="dropdown">
+                           <button class="dropdown-toggle" type="button" data-toggle="dropdown">Género
+                           <span class="caret pull-right"></span></button>
+                           <ul class="dropdown-menu">
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-1">Rock</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-2">Pop</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-3">Clásica</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-4">Ambient</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-1">Jazz</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-4">Blues</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-1">Krautrock</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-4">Low-fi</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-1">Punk</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-2">Metal</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter="all">...</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-lg-2">
+                        <div class="dropdown">
+                           <button class="dropdown-toggle" type="button" data-toggle="dropdown">Década
+                           <span class="caret pull-right"></span></button>
+                           <ul class="dropdown-menu">
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-1">2000</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-2">90'</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-4">80'</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-3">70'</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-2">60'</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter="all">...</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-lg-2">
+                        <div class="dropdown">
+                           <button class="dropdown-toggle" type="button" data-toggle="dropdown">País
+                           <span class="caret pull-right"></span></button>
+                           <ul class="dropdown-menu">
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-1">Chile</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-2">Argentina</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-4">Brasil</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-3">Canada</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-1">Noruega</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter="all">...</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-lg-2">
+                        <div class="dropdown">
+                           <button class="dropdown-toggle" type="button" data-toggle="dropdown">Sello
+                           <span class="caret pull-right"></span></button>
+                           <ul class="dropdown-menu">
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-1">Ogmios Productions</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-2">Moribund Records</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-4">Kranky Records</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-3">Hurdy Gurdy </a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter="all">...</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-lg-2">
+                        <div class="dropdown">
+                           <button class="dropdown-toggle" type="button" data-toggle="dropdown">Artista
+                           <span class="caret pull-right"></span></button>
+                           <ul class="dropdown-menu">
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-1">MBV</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-2o">Slowdive</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-4">Leviathan</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-3">Bowery Electric</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter="all">...</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-lg-2">
+                        <div class="dropdown">
+                           <button class="dropdown-toggle" type="button" data-toggle="dropdown">Vídeo/Single
+                           <span class="caret pull-right"></span></button>
+                           <ul class="dropdown-menu">
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-1">"Out your room"</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-2">"Anemone"</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-4">"Suspiria"</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter=".filtro-3">"Mater vision"</a></li>
+                              <li><a href="javascript:void(0);" class="filter" data-filter="all">...</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <div class="row">
+               <div class="text-center">
+                  <div class="content">
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix filtro-1">
+                        <img src="img/albums/album-om01.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix filtro-2">
+                        <img src="img/albums/album-om02.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album filtro-3">
+                        <img src="img/albums/album-om03.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix filtro-4">
+                        <img src="img/albums/album-om04.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix filtro-1">
+                        <img src="img/albums/album-om05.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix filtro-2">
+                        <img src="img/albums/album-om06.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix genero">
+                        <img src="img/albums/album-om07.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix genero">
+                        <img src="img/albums/album-om08.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix pais">
+                        <img src="img/albums/album-om09.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix pais">
+                        <img src="img/albums/album-om10.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix pais">
+                        <img src="img/albums/album-om11.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix pais">
+                        <img src="img/albums/album-om12.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix artista">
+                        <img src="img/albums/album-om13.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix artista">
+                        <img src="img/albums/album-om14.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix artista">
+                        <img src="img/albums/album-om15.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix artista">
+                        <img src="img/albums/album-om16.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix sello">
+                        <img src="img/albums/album-om17.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix sello">
+                        <img src="img/albums/album-om18.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix sello">
+                        <img src="img/albums/album-om19.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix sello">
+                        <img src="img/albums/album-om20.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix video">
+                        <img src="img/albums/album-om21.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix video">
+                        <img src="img/albums/album-om22.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix video">
+                        <img src="img/albums/album-om23.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix video">
+                        <img src="img/albums/album-om24.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix filtro-2">
+                        <img src="img/albums/album-om25.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album filtro-3">
+                        <img src="img/albums/album-om26.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix filtro-4">
+                        <img src="img/albums/album-om27.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album filtro-3">
+                        <img src="img/albums/album-om28.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix filtro-1">
+                        <img src="img/albums/album-om29.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix filtro-2">
+                        <img src="img/albums/album-om30.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album filtro-3">
+                        <img src="img/albums/album-om31.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 album mix filtro-4">
+                        <img src="img/albums/album-om32.jpg" alt="Album" class="img-responsive">
+                        <div class="info text-center">
+                           <h3>Álbum</h3>
+                           <h4>Artista/Género</h4>
+                           <ul class="list-unstyled list-inline">
+                              <li><a href="artista.html" class="circle"><span class="fa fa-search"></span></a></li>
+                              <li>
+                                 <div class="circle audio">
+                                    <audio controls>
+                                       <source src="mp3/kevin-shields-lalala.mp3" type="audio/mpeg">
+                                       Your browser does not support the audio element.
+                                    </audio>
+                                    <span class="fa fa-volume-up">
+                                    </span>
+                                 </div>
+                              </li>
+                              <li><a href="" class="circle"><span class="fa fa-clock-o"></span></a></li>
+                           </ul>
+                           <button class="btn">Comprar</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="clearfix"></div>
+               <nav class="text-center">
+                  <ul class="pagination">
+                     <li class="pag_prev">
+                        <a href="javascript:void(0);" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        </a>
+                     </li>
+                     <li class="pag_next">
+                        <a href="javascript:void(0);" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        </a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </section>
+      <section class="clip-right">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-7 pull-right text-right">
+                  <h2>¿Como compro musica en OM music?</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <button class="btn pull-right" data-toggle="modal" data-target="#registro" >Registrate</button> 
+               </div>
+            </div>
+         </div>
+         <img src="img/slider/slider-om-01.jpg" alt="OM music" class="bg">
+      </section>
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <h3><a href="">OM music</a></h3>
+               </div>
+               <div class="col-lg-6">
+                  <ul class="list-unstyled list-inline pull-right">
+                     <li><a href="" class="circle bg-facebook"><span class="fa fa-facebook"></span></a></li>
+                     <li><a href="" class="circle bg-twitter"><span class="fa fa-twitter"></span></a></li>
+                     <li><a href="" class="circle bg-youtube"><span class="fa fa-youtube-play"></span></a></li>
+                     <li><a href="" class="circle bg-google"><span class="fa fa-google-plus"></span></a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-15">
+                  <address>
+                     <strong>Adress</strong> <br>
+                     Av. Freqs 441 Hz <br>
+                     Tel: 63603214 <br>
+                     contacto@oms.net <br>
+                     www.oms.net
+                  </address>
+               </div>
+               <div class="col-lg-2">
+                  <p><strong>Mapa de Sitio</strong></p>
+                  <ul class="list-unstyled">
+                     <li><a href="">Inicio</a></li>
+                     <li><a href="">App</a></li>
+                     <li><a href="">Ingresar</a></li>
+                     <li><a href="">Descubre</a></li>
+                     <li><a href="">Descarga</a></li>
+                     <li><a href="">Acerca</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-15">
+                  <p><strong>Preguntas Frecuentes</strong></p>
+                  <ul class="list-unstyled">
+                     <li><a href="">¿Cómo comprar en OM music? </a></li>
+                     <li><a href="">Recursos Legales </a></li>
+                     <li><a href="">Periodo de prueba </a></li>
+                     <li><a href="">Requerimientos técnicos </a></li>
+                     <li><a href="">Nuestro equipo</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-2">
+                  <p><strong>Info</strong></p>
+                  <ul class="list-unstyled">
+                     <li><a href="">Términos de uso</a></li>
+                     <li><a href="">Privacidad</a></li>
+                     <li><a href="">Copyright</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-3">
+                  <form>
+                     <div class="form-group form-group-sm">
+                        <input type="text" name="sus" id="sus" required class="form-control">
+                        <label for="sus"> 
+                        Ingresa tu Email
+                        </label> 
+                     </div>
+                     <button type="button" class="btn btn-lg pull-right">Suscribirse</button> 
+                  </form>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Modales -->
+      <div class="modal fade" id="download" role="dialog">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">OM music</h4>
+               </div>
+               <div class="modal-body">
+                  <p>OM music ha sido descargado en tu dispositivo.</p>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="registro" role="dialog">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Registrate en OM music</h4>
+               </div>
+               <div class="modal-body">
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <form class="form-horizontal" role="form">
+                           <div class="form-group">
+                              <input id="email" name="email" type="text" class="form-control" required>
+                              <label for="email"> 
+                              E-mail
+                              </label>
+                           </div>
+                           <div class="form-group">
+                              <input id="pass" name="pass" type="password" class="form-control" required>
+                              <label for="pass"> 
+                              Password
+                              </label>
+                           </div>
+                           <div class="form-group">
+                              <div class="col-sm-offset-2 col-sm-10">
+                                 <div class="checkbox">
+                                    <label>
+                                    <input type="checkbox"/> Acepto los acuerdos de licencia
+                                    </label>
+                                 </div>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button type="submit" class="btn btn-default" data-dismiss="modal">Registrate!</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/mixitup.min.js"></script>
+      <script src="js/functions.js"></script> 
+   </body>
+</html>
